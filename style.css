@@ -1,24 +1,31 @@
 body {
     font-family: Roboto, sans-serif;
-    margin: 30px;
+    /* margin: 30px; */
+    text-align: center;
   }
 
+#hero {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #container {
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    border-style: solid;
+    border-color: black;
+    max-width: 960px;
 }
 
-.content {
-    height: 20vw;
-    width: 20vw;
-}
-
-.content1, .content2, .content3, .content4,
+/* .content1, .content2, .content3, .content4,
 .content5, .content6, .content7, .content8,
 .content9, .content10, .content11, .content12,
 .content13, .content14, .content15, .content16  {
     height: 20vw;
     width: 20vw;
-}
+} */
